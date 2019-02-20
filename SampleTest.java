@@ -17,6 +17,7 @@ public class SampleTest {
         driver = new ChromeDriver();
         // Launch Application on browser
         driver.get(baseUrl);
+        System.out.println(baseUrl);
     }
  
     @Test
